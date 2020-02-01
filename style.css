@@ -1,0 +1,33 @@
+.bg-image {
+  /*background-image: url("peter-feghali-fZ7-IAReeSo-unsplash.jpg");*/
+  background: rgb(29,29,29);
+  background: radial-gradient(circle, rgba(29,29,29,0.7973564425770308) 0%, rgba(29,29,29,0.5956757703081232) 100%), url("peter-feghali-fZ7-IAReeSo-unsplash.jpg");
+  background-size: cover;
+}
+
+.row {
+  opacity: 0.9;
+  box-shadow: 10px, 10px, 30px, rgba(0,0,0,.1);
+}
+
+ul {
+  padding-inline-start: 30px;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+h4, p, ul {
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+}
+
+h4 {
+  margin: 0;
+}
+
+.border-black {
+  border: 3px solid black;
+}
